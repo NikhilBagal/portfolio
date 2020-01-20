@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.71909558.chunk.css",
+    "main.js": "/portfolio/static/js/main.f99072f1.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.f99072f1.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.44087e9b.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.44087e9b.js.map",
+    "static/js/2.8d984d06.chunk.js": "/portfolio/static/js/2.8d984d06.chunk.js",
+    "static/js/2.8d984d06.chunk.js.map": "/portfolio/static/js/2.8d984d06.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.5e9712ad1fad5fa382d26156f5bbdc74.js": "/portfolio/precache-manifest.5e9712ad1fad5fa382d26156f5bbdc74.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.71909558.chunk.css.map": "/portfolio/static/css/main.71909558.chunk.css.map",
+    "static/js/2.8d984d06.chunk.js.LICENSE": "/portfolio/static/js/2.8d984d06.chunk.js.LICENSE",
+    "static/media/NikEdit.png": "/portfolio/static/media/NikEdit.5b09483a.png",
+    "static/media/desktop-design.jpg": "/portfolio/static/media/desktop-design.21ea29a6.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.44087e9b.js",
+    "static/js/2.8d984d06.chunk.js",
+    "static/css/main.71909558.chunk.css",
+    "static/js/main.f99072f1.chunk.js"
+  ]
+}
