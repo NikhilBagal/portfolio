@@ -144,7 +144,7 @@ body {
                         img {
                             max-width: 40%;
                             margin: 2% 5%;
-                            flex-grow: 5;
+                          //  flex-grow: 5;
                         }
                         .info-text {
                             display: flex;
@@ -196,6 +196,65 @@ body {
             a:hover {
                 transform: scale(1.5);
             }   
+        }
+    }
+}
+
+@media only screen and (max-width:1100px){
+    body {
+        .wrapper {
+            .main-sec {
+                margin-top: 15%;
+            }
+            .about-sec {
+                margin-top: 20%;
+                .text-sec {
+                    margin: -5% 3% auto 3%;
+                    ul {
+                        p {
+                            margin-left: 5%;
+                        }
+                    }
+                }
+                .resume-txt {
+                    margin: 2% auto 2% 40%;
+                }
+            }
+            .contact-sec {
+                form {
+                    margin-top: 30%;
+                    input {
+                        width: 80%;
+                        margin: 2% 10%;
+                    }
+                    button {
+                        padding: .5rem 2rem;
+                        margin-top: 5%;
+                    }
+                    p {
+                        margin-left: 5%;
+                    }
+                }
+            }
+            .work-sec {
+                .project-sec {
+                    margin-top: 25%;
+                    .project {
+                        .info-sec {
+                            flex-direction: column;
+                            img {
+                                max-width: 90%;
+                            }
+                            .info-text {
+                                p {
+                                    width: 90%;
+                                    margin: 5% 5%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }

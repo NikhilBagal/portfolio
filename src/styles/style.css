@@ -196,9 +196,6 @@ body .wrapper .work-sec .project-sec .project .info-sec {
 body .wrapper .work-sec .project-sec .project .info-sec img {
   max-width: 40%;
   margin: 2% 5%;
-  -webkit-box-flex: 5;
-      -ms-flex-positive: 5;
-          flex-grow: 5;
 }
 
 body .wrapper .work-sec .project-sec .project .info-sec .info-text {
@@ -266,5 +263,53 @@ body .wrapper nav a p {
 body .wrapper nav a:hover {
   -webkit-transform: scale(1.5);
           transform: scale(1.5);
+}
+
+@media only screen and (max-width: 1100px) {
+  body .wrapper .main-sec {
+    margin-top: 15%;
+  }
+  body .wrapper .about-sec {
+    margin-top: 20%;
+  }
+  body .wrapper .about-sec .text-sec {
+    margin: -5% 3% auto 3%;
+  }
+  body .wrapper .about-sec .text-sec ul p {
+    margin-left: 5%;
+  }
+  body .wrapper .about-sec .resume-txt {
+    margin: 2% auto 2% 40%;
+  }
+  body .wrapper .contact-sec form {
+    margin-top: 30%;
+  }
+  body .wrapper .contact-sec form input {
+    width: 80%;
+    margin: 2% 10%;
+  }
+  body .wrapper .contact-sec form button {
+    padding: .5rem 2rem;
+    margin-top: 5%;
+  }
+  body .wrapper .contact-sec form p {
+    margin-left: 5%;
+  }
+  body .wrapper .work-sec .project-sec {
+    margin-top: 25%;
+  }
+  body .wrapper .work-sec .project-sec .project .info-sec {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .wrapper .work-sec .project-sec .project .info-sec img {
+    max-width: 90%;
+  }
+  body .wrapper .work-sec .project-sec .project .info-sec .info-text p {
+    width: 90%;
+    margin: 5% 5%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
