@@ -17,8 +17,9 @@ const About = () => {
                     <li><h4>FrameWorks: </h4><p>React.js,Redux</p></li>
                     <li><h4>Tools: </h4><p>Git,Chrome Dev Tools</p></li>
                 </ul>
+                
             </div>
-            
+            <a href="https://rel.ink/kXaA5n" className="resume-txt" target="_blank" rel="noopener noreferrer">Resume</a>
             <nav>
                 <Link to="/"><p>Home</p></Link>
                 <Link to="/about"><p>About</p></Link>

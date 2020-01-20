@@ -18,10 +18,10 @@ export default class MyForm extends React.Component {
         method="POST"
       >
         
-        <label>Email:</label>
-        <input type="email" name="email" />
-        <label>Message:</label>
-        <input type="text" name="message" />
+        {/*<label>Email:</label>*/}
+        <input type="email" name="email" placeholder="Enter Your Email"/>
+        {/*<label>Message:</label>*/}
+        <input type="text" name="message" placeholder="Any Message"/>
         {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
         {status === "ERROR" && <p>Ooops! There was an error.</p>}
       </form>

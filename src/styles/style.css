@@ -20,7 +20,7 @@ body .wrapper .main-sec {
 
 body .wrapper .main-sec .intro-text {
   text-align: center;
-  margin: 10% auto 5% auto;
+  margin: 15% auto 5% auto;
 }
 
 body .wrapper .main-sec .intro-text h1 {
@@ -91,7 +91,149 @@ body .wrapper .about-sec .text-sec ul p {
   margin-left: 10%;
 }
 
+body .wrapper .about-sec .resume-txt {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #fc466b;
+  margin: 2% auto 2% 50%;
+  border-radius: 5px;
+  border: none;
+}
+
 body .wrapper .about-sec nav {
+  top: 0%;
+}
+
+body .wrapper .contact-sec form {
+  margin-top: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .wrapper .contact-sec form input {
+  width: 30%;
+  padding: 20px 20px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin-bottom: 2%;
+}
+
+body .wrapper .contact-sec form button {
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+body .wrapper .contact-sec form button:hover {
+  background-color: #fc466b;
+  color: #ffffff;
+}
+
+body .wrapper .contact-sec form p {
+  color: #ffffff;
+  font-size: 2rem;
+  font-family: 'roboto';
+}
+
+body .wrapper .contact-sec .personal-contact {
+  text-align: center;
+  margin-top: 10%;
+}
+
+body .wrapper .contact-sec .personal-contact p {
+  color: #ffffff;
+  font-size: 1rem;
+  font-family: "roboto";
+}
+
+body .wrapper .contact-sec nav {
+  top: 0%;
+}
+
+body .wrapper .work-sec .project-sec {
+  margin-top: 10%;
+}
+
+body .wrapper .work-sec .project-sec .project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 5%;
+}
+
+body .wrapper .work-sec .project-sec .project h1 {
+  text-align: center;
+  color: #ffffff;
+  font-family: 'roboto';
+  font-size: 2rem;
+}
+
+body .wrapper .work-sec .project-sec .project .info-sec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .wrapper .work-sec .project-sec .project .info-sec img {
+  max-width: 40%;
+  margin: 2% 5%;
+  -webkit-box-flex: 5;
+      -ms-flex-positive: 5;
+          flex-grow: 5;
+}
+
+body .wrapper .work-sec .project-sec .project .info-sec .info-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .wrapper .work-sec .project-sec .project .info-sec .info-text p {
+  color: #ffffff;
+  font-size: 1rem;
+  font-family: "roboto";
+  width: 60%;
+  margin-top: 10%;
+}
+
+body .wrapper .work-sec .project-sec .project .info-sec .info-text a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: "roboto";
+}
+
+body .wrapper .work-sec .project-sec .project .info-sec .info-text a:hover {
+  color: #fc466b;
+}
+
+body .wrapper .work-sec nav {
   top: 0%;
 }
 
@@ -101,7 +243,7 @@ body .wrapper nav {
   display: flex;
   width: 100%;
   position: fixed;
-  top: 90%;
+  top: 0%;
   height: 10%;
   -webkit-box-align: center;
       -ms-flex-align: center;

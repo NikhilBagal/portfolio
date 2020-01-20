@@ -6,6 +6,10 @@ const Contact = () => {
     return (
             <div className="contact-sec">
                 <Form />
+                <div className="personal-contact">
+                    <p>Mobile No: 9421036521</p>
+                    <p>Email: nbagal02@gmail.com</p>
+                </div>
                 <nav>
                     <Link to="/"><p>Home</p></Link>
                     <Link to="/about"><p>About</p></Link>
