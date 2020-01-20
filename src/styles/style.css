@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css?family=Alata|Roboto&display=swap");
+body {
+  background-color: #1f3756;
+  margin: 0%;
+  padding: 0%;
+}
+
+body .wrapper .main-sec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .wrapper .main-sec .intro-text {
+  text-align: center;
+  margin: 10% auto 5% auto;
+}
+
+body .wrapper .main-sec .intro-text h1 {
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+}
+
+body .wrapper .main-sec .social-connect {
+  width: 100%;
+  text-align: center;
+}
+
+body .wrapper .main-sec .social-connect a {
+  margin: auto 5%;
+}
+
+body .wrapper .main-sec .social-connect a i {
+  color: #ffffff;
+  font-size: 1.5rem;
+  -webkit-transition: .5s ease-in;
+  transition: .5s ease-in;
+}
+
+body .wrapper .main-sec .social-connect a i:hover {
+  color: #12c2e9;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+body .wrapper .about-sec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .wrapper .about-sec .text-sec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .wrapper .about-sec .text-sec .portrait-img {
+  max-width: 20%;
+  margin: auto 5% auto 5%;
+}
+
+body .wrapper nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  position: fixed;
+  top: 90%;
+  height: 10%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fc466b;
+}
+
+body .wrapper nav a {
+  text-decoration: none;
+  margin: auto 5%;
+  -webkit-transition: .5s ease-in;
+  transition: .5s ease-in;
+  font-family: 'Roboto', sans-serif;
+}
+
+body .wrapper nav a p {
+  color: #ffffff;
+}
+
+body .wrapper nav a:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+/*# sourceMappingURL=style.css.map */

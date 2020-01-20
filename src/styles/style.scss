@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Alata|Roboto&display=swap');
+$body-background : hsl(214, 47%, 23%);
+
+
+body {
+    background-color: $body-background;
+    margin: 0%;
+    padding: 0%;
+    .wrapper {
+        .main-sec {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .intro-text {
+                text-align: center;
+                margin: 10% auto 5% auto;
+                h1 {
+                    font-family: 'Roboto', sans-serif;
+                    color: #ffffff;
+                }
+            }
+            .social-connect {
+                width: 100%;
+                text-align: center;
+                a {
+                    margin: auto 5%;
+                    i {
+                        color: #ffffff;
+                        font-size: 1.5rem;
+                        transition: .5s ease-in;
+                    }
+                    i:hover {
+                      //  color: #fc466b;
+                      color:  #12c2e9;
+                      transform: scale(1.5);
+                    }
+                }
+            }
+        }
+        .about-sec {
+            display: flex;
+            align-items: center;
+            .text-sec {
+                display: flex;
+                flex-direction: column;
+                .portrait-img {
+                    max-width: 20%;
+                    margin: auto 5% auto 5%;
+                }
+            }
+            
+
+        }
+        nav {
+            display: flex;
+            width: 100%;
+            position: fixed;
+            top: 90%;
+            height: 10%;
+            align-items: center;
+            background-color:  #fc466b;
+            a {
+                text-decoration: none;
+                margin: auto 5%;
+                transition: .5s ease-in;
+                font-family: 'Roboto', sans-serif;
+                p {
+                    color: #ffffff;
+                }
+                
+            }
+            a:hover {
+                transform: scale(1.5);
+            }   
+        }
+    }
+}
