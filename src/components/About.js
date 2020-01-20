@@ -13,9 +13,9 @@ const About = () => {
                 </p>
                 <h3>My Skills: </h3>
                 <ul>
-                    <li><h4>Languages: </h4><p>HTML,CSS,Javascript,TypeScript,Jquery</p></li>
-                    <li><h4>FrameWorks: </h4><p>React.js,Redux</p></li>
-                    <li><h4>Tools: </h4><p>Git,Chrome Dev Tools</p></li>
+                    <li><h4>Languages: </h4><p>HTML,CSS,Javascript,TypeScript</p></li>
+                    <li><h4>FrameWorks/Library: </h4><p>React.js,Redux,Jquery</p></li>
+                    <li><h4>Tools: </h4><p>Git,Chrome Dev Tools,Figma,Babel</p></li>
                 </ul>
                 
             </div>
