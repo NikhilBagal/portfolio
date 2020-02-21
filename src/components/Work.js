@@ -82,8 +82,8 @@ const Work = () => {
                     <div className="info-sec">
                         <img src="https://rel.ink/kXqPen" alt=""></img>
                         <div className="info-text">
-                            <p>Responsive Pricing page created using HTML,SCSS,TypeScript<br>Used Gulp for Task Automation
-                            </br></p>
+                            <p>Responsive Pricing page created using HTML,SCSS,TypeScript.Used Gulp for Task Automation
+                            </p>
                             <a href="https://nikhilbagal.github.io/pricing-page/" target="_blank" rel="noopener noreferrer">Live Page URL</a>
                         </div>
                     </div>
