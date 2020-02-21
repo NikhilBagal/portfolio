@@ -77,6 +77,17 @@ const Work = () => {
                         </div>
                     </div>
                 </div>
+                <div className="project" id="bookmark-page">
+                    <h1>Pricing Page</h1>
+                    <div className="info-sec">
+                        <img src="https://rel.ink/kXqPen" alt=""></img>
+                        <div className="info-text">
+                            <p>Responsive Pricing page created using HTML,SCSS,TypeScript<br>Used Gulp for Task Automation
+                            </br></p>
+                            <a href="https://nikhilbagal.github.io/pricing-page/" target="_blank" rel="noopener noreferrer">Live Page URL</a>
+                        </div>
+                    </div>
+                </div>
             </div>
             <nav>
                 <Link to="/"><p>Home</p></Link>
